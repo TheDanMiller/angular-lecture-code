@@ -1,0 +1,14 @@
+{{ title | uppercase}}
+<br />
+{{names | json }}
+<br />
+
+<ul>
+  <li>Dan</li>
+  <li>Steve</li>
+  <li>bob</li>
+</ul>
+
+<ul>
+  <li *ngFor="let name of names">{{name | uppercase}}</li>
+</ul>
