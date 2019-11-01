@@ -1,14 +1,5 @@
-{{ title | uppercase}}
-<br />
-{{names | json }}
-<br />
-
-<ul>
-  <li>Dan</li>
-  <li>Steve</li>
-  <li>bob</li>
-</ul>
-
-<ul>
-  <li *ngFor="let name of names">{{name | uppercase}}</li>
-</ul>
+<h1>My top level component</h1>
+<app-sample-child-component
+  [demographics]="sampleObject"
+>
+</app-sample-child-component>

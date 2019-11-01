@@ -7,5 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo-project';
-  names = ['Dan', 'Steve', 'Bob'];
+  sampleObject = {
+    name: 'Dan',
+    age: 36,
+    children: [
+      {
+        name: 'Ben'
+      },
+      {
+        name: 'Gavin'
+      }
+    ]
+  };
 }
