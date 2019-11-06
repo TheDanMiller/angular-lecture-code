@@ -19,4 +19,11 @@ export class AppComponent {
       }
     ]
   };
+  clickCount = 0;
+  meInJson = {
+    stuffForFooter: {
+      myFavoriteSearchEngine: 'Google',
+      bestMonthOfTheYear: 'July'
+    }
+  };
 }
