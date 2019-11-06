@@ -7,3 +7,6 @@
 <app-footer [month]="meInJson.stuffForFooter.bestMonthOfTheYear"
   [searchEngine]="meInJson.stuffForFooter.myFavoriteSearchEngine"
 ></app-footer>
+
+<app-show-vakue [value]="clickCount"></app-show-vakue>
+<app-increase-count-button (buttonClick)="handleButtonClick()"></app-increase-count-button>

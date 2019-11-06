@@ -7,6 +7,8 @@ import { ChildChildComponentComponent } from './sample-child-component/child-chi
 import { MakeClicksHappenComponent } from './make-clicks-happen/make-clicks-happen.component';
 import { ShowClickCountComponent } from './show-click-count/show-click-count.component';
 import { FooterComponent } from './footer/footer.component';
+import { ShowVakueComponent } from './show-vakue/show-vakue.component';
+import { IncreaseCountButtonComponent } from './increase-count-button/increase-count-button.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { FooterComponent } from './footer/footer.component';
     ChildChildComponentComponent,
     MakeClicksHappenComponent,
     ShowClickCountComponent,
-    FooterComponent
+    FooterComponent,
+    ShowVakueComponent,
+    IncreaseCountButtonComponent
   ],
   imports: [
     BrowserModule

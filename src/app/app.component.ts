@@ -26,4 +26,8 @@ export class AppComponent {
       bestMonthOfTheYear: 'July'
     }
   };
+  handleButtonClick() {
+    this.clickCount++;
+  }
 }
+
